@@ -19,10 +19,12 @@ export default function ToggleHashtags({ enabledHashtags, setEnabledHashtags, en
   //   }
   // }
 
+
+
   return (
     <Switch.Group>
-      <div className="mx-auto w-full max-w-md py-2" >
-        <Switch.Label className="ml-6 mr-3">Include hashtags</Switch.Label>
+      <div className="flex justify-center items-center w-full max-w-md py-2">
+        <Switch.Label className="mr-3">Include hashtags</Switch.Label>
         <Switch
           checked={enabledHashtags}
           onChange={setEnabledHashtags}
@@ -36,7 +38,9 @@ export default function ToggleHashtags({ enabledHashtags, setEnabledHashtags, en
             } inline-block h-4 w-4 transform rounded-full bg-white transition-transform`}
           />
         </Switch>
-        <Switch.Label className="ml-6 mr-3">Use emojis</Switch.Label>
+      </div>
+      <div className="flex justify-center items-center w-full max-w-md py-2">
+        <Switch.Label className="mr-3">Use emojis</Switch.Label>
         <Switch
           checked={enabledEmojis}
           onChange={setEnabledEmojis}
@@ -50,8 +54,8 @@ export default function ToggleHashtags({ enabledHashtags, setEnabledHashtags, en
             } inline-block h-4 w-4 transform rounded-full bg-white transition-transform`}
           />
         </Switch>
-
       </div>
     </Switch.Group>
+
   )
 }

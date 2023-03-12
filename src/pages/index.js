@@ -242,7 +242,7 @@ export default function Home() {
               />
             </li>
             <li className="flex flex-col gap-2">
-              <div className="flex flex-row gap-2 text-sm xl:text-base items-start sm:items-center">
+              <div className="flex flex-row gap-2 text-sm xl:text-base items-start sm:items-center ">
                 <span className="w-5 h-5 xl:w-6 xl:h-6 rounded-full font-bold text-xs xl:text-sm bg-black flex-shrink-0 flex items-center justify-center text-white">
                   4
                 </span>
