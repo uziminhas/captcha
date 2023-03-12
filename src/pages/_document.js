@@ -11,7 +11,7 @@ export default function Document() {
           content="Generate the perfect caption in seconds with the help of ChatGPT."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://captiongen.com/" />
+        <meta property="og:url" content="https://captiongen.io/" />
         <meta property="og:title" content="captiongen" />
         <meta
           property="og:description"
@@ -19,10 +19,10 @@ export default function Document() {
         />
         <meta
           property="og:image"
-          content="https://captiongen.com"
+          content="https://captiongen.io/preview.png"
         />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://captiongen.com/" />
+        <meta property="twitter:url" content="https://captiongen.io" />
         <meta property="twitter:title" content="captiongen" />
         <meta
           property="twitter:description"
@@ -30,7 +30,7 @@ export default function Document() {
         />
         <meta
           property="twitter:image"
-          content="https://captiongen.com/"
+          content="https://captiongen.io/"
         />
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </Head>
