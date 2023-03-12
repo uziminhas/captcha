@@ -15,27 +15,27 @@ export default function Logo() {
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">
             captiongen
           </span>
-          <span>.com</span>
+          <span>.io</span>
         </>
       ) : theme === "fb" ? (
         <>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-gray-300 to-blue-500">captiongen</span>
-          <span>.com</span>
+          <span>.io</span>
         </>
       ) : theme === "twt" ? (
         <>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-green-500">captiongen</span>
-          <span>.com</span>
+          <span>.io</span>
         </>
       ) : theme === "yt" ? (
         <>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500">captiongen</span>
-          <span>.com</span>
+          <span>.io</span>
         </>
       ) : (
         <>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500">captiongen</span>
-          <span>.com</span>
+          <span>.io</span>
         </>
       )}
     </h1>
