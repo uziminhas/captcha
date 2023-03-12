@@ -30,7 +30,7 @@ export default function Document() {
         />
         <meta
           property="twitter:image"
-          content="https://captiongen.io/"
+          content="https://captiongen.io/preview.png"
         />
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </Head>
