@@ -8,29 +8,29 @@ export default function Document() {
         <meta name="title" content="captiongen" />
         <meta
           name="description"
-          content="Generate the perfect caption in seconds with the help of ChatGPT."
+          content="Create captions for Instagram, Youtube, or TikTok 10x faster with ChatGPT."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://captiongen.io/" />
         <meta property="og:title" content="captiongen" />
         <meta
           property="og:description"
-          content="Generate the perfect caption in seconds with the help of ChatGPT."
+          content="Create captions for Instagram, Youtube, or TikTok 10x faster with ChatGPT."
         />
         <meta
           property="og:image"
-          content="https://captiongen.io/preview.png"
+          content="https://captiongen.io/preview_white.png"
         />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://captiongen.io" />
         <meta property="twitter:title" content="captiongen" />
         <meta
           property="twitter:description"
-          content="Generate the perfect caption in seconds with the help of ChatGPT."
+          content="Create captions for Instagram, Youtube, or TikTok 10x faster with ChatGPT."
         />
         <meta
           property="twitter:image"
-          content="https://captiongen.io/preview.png"
+          content="https://captiongen.io/preview_white.png"
         />
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
         {/* Global Site Tag (gtag.js) - Google Analytics */}

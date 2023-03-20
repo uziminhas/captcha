@@ -149,6 +149,8 @@ export default function Home() {
     setLoading(false);
   }
 
+  <a href="https://www.producthunt.com/posts/captiongen-io?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-captiongen&#0045;io" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=384914&theme=light" alt="CaptionGen&#0046;io - Create&#0032;the&#0032;perfect&#0032;Reels&#0044;&#0032;Shorts&#0044;&#0032;TikTok&#0032;caption&#0032;10x&#0032;faster | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 
   return (
     <>
@@ -156,6 +158,10 @@ export default function Home() {
       <div className="w-full h-full flex flex-col items-center">
         <main className="w-full h-full p-4 sm:p-6 lg:py-12 xl:py-24 flex flex-col gap-8 lg:gap-12 items-center">
           <Github />
+          <div style={{width: '250px', height: '54px'}}>
+            <a href="https://www.producthunt.com/posts/captiongen-io?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-captiongen&#0045;io" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=384914&theme=light" alt="CaptionGen&#0046;io - Create&#0032;the&#0032;perfect&#0032;Reels&#0044;&#0032;Shorts&#0044;&#0032;TikTok&#0032;caption&#0032;10x&#0032;faster | Product Hunt" style={{width: '250px', height: '54px'}} width="250" height="54" />
+            </a>
+          </div>
           <h1 className="text-center font-bold text-4xl xl:text-7xl h-full">
             Generate the perfect{" "}
             <Typewriter
