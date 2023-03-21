@@ -12,7 +12,7 @@ export default function Document() {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://captiongen.io/" />
-        <meta property="og:title" content="captiongen" />
+        <meta property="og:title" content="Create captions for Instagram, Youtube, or TikTok 10x faster with ChatGPT." />
         <meta
           property="og:description"
           content="Create captions for Instagram, Youtube, or TikTok 10x faster with ChatGPT."
@@ -23,7 +23,7 @@ export default function Document() {
         />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://captiongen.io" />
-        <meta property="twitter:title" content="captiongen" />
+        <meta property="twitter:title" content="Create captions for Instagram, Youtube, or TikTok 10x faster with ChatGPT." />
         <meta
           property="twitter:description"
           content="Create captions for Instagram, Youtube, or TikTok 10x faster with ChatGPT."
