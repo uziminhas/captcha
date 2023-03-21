@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <title>CaptionGen</title>
-        <meta name="title" content="captiongen" />
+        <meta name="title" content="CaptionGen.io - Create captions for Instagram, Youtube, or TikTok 10x faster with ChatGPT." />
         <meta
           name="description"
           content="Create captions for Instagram, Youtube, or TikTok 10x faster with ChatGPT."
@@ -19,7 +19,7 @@ export default function Document() {
         />
         <meta
           property="og:image"
-          content="https://captiongen.io/preview_white.png"
+          content="https://captiongen.io/preview.png"
         />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://captiongen.io" />
@@ -30,7 +30,7 @@ export default function Document() {
         />
         <meta
           property="twitter:image"
-          content="https://captiongen.io/preview_white.png"
+          content="https://captiongen.io/preview.png"
         />
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
         {/* Global Site Tag (gtag.js) - Google Analytics */}
