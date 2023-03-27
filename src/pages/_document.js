@@ -8,25 +8,23 @@ export default function Document() {
         <meta name="title" content="CaptionGen.io - Create captions for Instagram, Youtube, or TikTok 10x faster with ChatGPT." />
         <meta
           name="description"
-          content="Create captions for Instagram, Youtube, or TikTok 10x faster with ChatGPT."
+          content="Captions for Instagram, Youtube, or TikTok in seconds with ChatGPT."
         />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://captiongen.io/" />
-        <meta property="og:title" content="Create captions for Instagram, Youtube, or TikTok 10x faster with ChatGPT." />
+        <meta property="og:site_name" content="captiongen.io" />
         <meta
           property="og:description"
-          content="Create captions for Instagram, Youtube, or TikTok 10x faster with ChatGPT."
+          content="Captions for Instagram, Youtube, or TikTok 10x in seconds with ChatGPT."
+        />
+        <meta property="og:title" content="ChatGPT Caption Generator" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:title" content="ChatGPT Caption Generator." />
+        <meta
+          property="twitter:description"
+          content="Captions for Instagram, Youtube, or TikTok in seconds with ChatGPT."
         />
         <meta
           property="og:image"
           content="https://captiongen.io/preview.png"
-        />
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://captiongen.io" />
-        <meta property="twitter:title" content="Create captions for Instagram, Youtube, or TikTok 10x faster with ChatGPT." />
-        <meta
-          property="twitter:description"
-          content="Create captions for Instagram, Youtube, or TikTok 10x faster with ChatGPT."
         />
         <meta
           property="twitter:image"
