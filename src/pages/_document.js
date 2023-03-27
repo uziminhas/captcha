@@ -4,7 +4,6 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <meta name="title" content="CaptionGen.io - Create captions for Instagram, Youtube, or TikTok 10x faster with ChatGPT." />
         <meta
           name="description"
           content="Captions for Instagram, Youtube, or TikTok in seconds with ChatGPT."
