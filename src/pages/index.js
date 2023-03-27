@@ -11,7 +11,8 @@ import Typewriter from "react-typewriter-animate";
 import randomBlurb from "../utils/randomBlurb";
 import Caption from "../components/Caption";
 import Link from "next/link";
-import axios from "axios"
+import axios from "axios";
+import Head from "next/head";
 
 export default function Home() {
   const styles = ["Influencer", "Creative", "Inspirational","Informative", "Quirky", "Gen Z"];
@@ -155,6 +156,9 @@ export default function Home() {
   return (
     <>
       <Nav />
+      <Head>
+        <title>ChatGPT Caption Generator</title>
+      </Head>
       <div className="w-full h-full flex flex-col items-center">
         <main className="w-full h-full p-4 sm:p-6 lg:py-12 xl:py-24 flex flex-col gap-8 lg:gap-12 items-center">
           <Github />
