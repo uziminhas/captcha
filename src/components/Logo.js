@@ -15,7 +15,7 @@ export default function Logo() {
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">
             captiongen
           </span>
-          <span>.io</span>
+          <span></span>
         </>
       ) : theme === "fb" ? (
         <>
