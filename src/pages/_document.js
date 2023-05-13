@@ -9,7 +9,7 @@ export default function Document() {
           name="description"
           content="Captions for Instagram, Youtube, or TikTok in seconds with ChatGPT. This Instagram caption generator will help you grow followers with the help of AI."
         />
-        <meta property="og:site_name" content="captiongen.io" />
+        <meta property="og:site_name" content="captiongen.com" />
         <meta
           property="og:description"
           content="Captions for Instagram, Youtube, or TikTok in seconds with ChatGPT. This Instagram caption generator will help you grow followers with the help of AI."
@@ -23,11 +23,11 @@ export default function Document() {
         />
         <meta
           property="og:image"
-          content="https://captiongen.io/preview.png"
+          content="https://captiongen.com/preview.png"
         />
         <meta
           property="twitter:image"
-          content="https://captiongen.io/preview.png"
+          content="https://captiongen.com/preview.png"
         />
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
         {/* Global Site Tag (gtag.js) - Google Analytics */}
