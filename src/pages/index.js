@@ -308,7 +308,6 @@ export default function Home() {
                     Help us improve! Provide feedback here on what features you'd like to see.
                   </Link>
                 )}
-
             </section>
           )}
         </main>
