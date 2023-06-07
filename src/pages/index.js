@@ -305,7 +305,7 @@ export default function Home() {
                     href="/contact-us"
                     style={{ color: "#60A5D8", textDecoration: "underline" }}
                   >
-                    Help us improve! Provide feedback here on what features you'd like to see.
+                    Help us improve! Provide feedback here on what features you&apos;d like to see.
                   </Link>
                 )}
             </section>
