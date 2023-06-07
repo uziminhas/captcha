@@ -13,6 +13,8 @@ import Caption from "../components/Caption";
 import Link from "next/link";
 import axios from "axios";
 import Head from "next/head";
+import 'text-encoding';
+
 
 export default function Home() {
   const styles = ["Influencer", "Creative", "Inspirational","Informative", "Quirky", "Gen Z"];
@@ -41,6 +43,8 @@ export default function Home() {
   const [videoUrl, setVideoUrl] = useState("");
   const [videoId, setVideoId] = useState("");
   const [videoDescription, setVideoDescription] = useState("");
+  const [streamFinished, setStreamFinished] = useState(false);
+
 
   const prompt = `Generate 2 ${selectedStyle} captions ${enabledHashtags === true ? "using hashtags at the end" : "using no hashtags"} ${enabledEmojis === true ? "and using emojis" : "and using no emojis"} for ${selectedApp} and clearly label them "1." and "2." and base the captions on this description: '${text}${text.slice(-1) === "." ? "" : "'"}.  
   ${
@@ -143,6 +147,10 @@ export default function Home() {
       const chunkValue = decoder.decode(value);
       setGeneratedCaptions((prev) => prev + chunkValue);
     }
+
+    // Stream is finished, set streamFinished to true
+    setStreamFinished(true);
+
     if (captionsRef.current !== null) {
       captionsRef.current.scrollIntoView({ behavior: "smooth" });
     }
@@ -291,6 +299,16 @@ export default function Home() {
                 .map((caption, key) => {
                   return <Caption text={caption} key={key} />;
                 })}
+                {streamFinished && !loading && (
+                  <Link
+                    className="text-center text-xs sm:text-sm xl:text-base"
+                    href="/contact-us"
+                    style={{ color: "#60A5D8", textDecoration: "underline" }}
+                  >
+                    Help us improve! Provide feedback here on what features you'd like to see.
+                  </Link>
+                )}
+
             </section>
           )}
         </main>
@@ -298,17 +316,6 @@ export default function Home() {
           <div className="flex flex-col w-full">
             <span className="text-sm xl:text-base">
               Powered by <strong>ChatGPT and Vercel Edge Functions</strong>.
-            </span>
-            <span className="text-sm xl:text-base">
-              Based on
-              <Link
-                className="text-blue-600 font-bold"
-                target={"_blank"}
-                href="https://github.com/Nutlope/twitterbio"
-              >
-                {" "}
-                twitterBio by @nutlope
-              </Link>
             </span>
           </div>
           <div className="flex flex-row w-fit gap-6">
