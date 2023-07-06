@@ -18,7 +18,7 @@ import 'text-encoding';
 
 export default function Home() {
   const styles = ["Influencer", "Creative", "Inspirational","Informative", "Quirky", "Gen Z"];
-  const apps = ["TikTok", "Instagram", "YouTube"];
+  const apps = ["Threads","TikTok", "Instagram", "YouTube"];
   // const apps = [
   //   {
   //     name: 'TikTok'
@@ -175,19 +175,19 @@ export default function Home() {
             </a>
           </div>
           <h1 className="text-center font-bold text-4xl xl:text-7xl h-full">
-            Generate the perfect{" "}
+            Generate perfect{" "}
             <Typewriter
               cursor={{ char: " " }}
               timeBeforeDelete={2000}
               loop
               dataToRotate={[
-                [{ type: "word", text: ` Instagram` }],
-                [{ type: "word", text: ` Facebook` }],
-                [{ type: "word", text: ` Youtube` }],
-                [{ type: "word", text: ` Twitter` }],
+                [{ type: "word", text: ` Threads` }],
+                [{ type: "word", text: ` Instagram captions` }],
+                [{ type: "word", text: ` Youtube captions` }],
+                [{ type: "word", text: ` Tweets` }],
               ]}
             />
-            caption in seconds
+            in seconds
           </h1>
           <ul className="flex flex-col gap-8">
             <li className="flex flex-col gap-2">
