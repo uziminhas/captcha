@@ -30,6 +30,8 @@ export default function Document() {
           content="https://captiongen.com/preview.png"
         />
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+        {/* Google Adsense */}
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4285102984128110" crossorigin="anonymous"></script>
         {/* Global Site Tag (gtag.js) - Google Analytics */}
         <script
           async
