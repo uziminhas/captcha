@@ -18,7 +18,7 @@ import 'text-encoding';
 
 export default function Home() {
   const styles = ["Influencer", "Creative", "Inspirational","Informative", "Quirky", "Gen Z"];
-  const apps = ["Threads","TikTok", "Instagram", "YouTube"];
+  const apps = ["Instagram","TikTok", "Threads", "YouTube"];
   // const apps = [
   //   {
   //     name: 'TikTok'
