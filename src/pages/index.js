@@ -181,10 +181,10 @@ export default function Home() {
               timeBeforeDelete={2000}
               loop
               dataToRotate={[
-                [{ type: "word", text: ` Threads` }],
                 [{ type: "word", text: ` Instagram captions` }],
+                [{ type: "word", text: ` Tiktok captions` }],
+                [{ type: "word", text: ` Threads` }],
                 [{ type: "word", text: ` Youtube captions` }],
-                [{ type: "word", text: ` Tweets` }],
               ]}
             />
             in seconds
