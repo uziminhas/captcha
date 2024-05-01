@@ -165,7 +165,7 @@ export default function Home() {
     <>
       <Nav />
       <Head>
-        <title>ChatGPT Caption Generator</title>
+        <title>CaptionGen - Instagram Caption Generator</title>
       </Head>
       <div className="w-full h-full flex flex-col items-center">
         <main className="w-full h-full p-4 sm:p-6 lg:py-12 xl:py-24 flex flex-col gap-8 lg:gap-12 items-center">
