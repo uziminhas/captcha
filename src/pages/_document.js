@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <meta name="title" content="Instagram Caption Generator" />
+        <meta name="title" content="ChatGPT Caption Generator" />
         <meta
           name="description"
           content="Content for Instagram, Threads, or TikTok in seconds with ChatGPT. This Instagram Threads generator will help you grow followers with the help of AI."
